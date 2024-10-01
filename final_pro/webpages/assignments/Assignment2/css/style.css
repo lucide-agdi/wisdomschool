@@ -1,0 +1,19 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+.links{
+	margin-top: 40px;
+	margin-left: 60px;
+}
+.links a{	
+	text-decoration: none;
+	padding: 20px;
+	background-color: #060;
+	border-radius: 10px;
+	margin-left: 60px;
+	color: #fff;
+}
+.links a:hover{
+	background-color: #030;
+}
