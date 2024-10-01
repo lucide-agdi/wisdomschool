@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISDOM SCHOOL||Registration</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <style>
+        .bgimg{
+            position: absolute;
+            opacity: .1;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <img src="../medias/books.png" alt="" class="bgimg">
+    <div class="content">
+        <div class="registration-form">
+            <h2>Student Registration Form</h2>
+            <form action="registerered.html">
+                <div class="form-group">
+                    <label>First Name:</label>
+                    <input type="text" name="firstName" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Last Name:</label>
+                    <input type="text" name="lastName" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Date of Birth:</label>
+                    <input type="date"  name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label>Birth certificate:</label>
+                    <input type="file"  name="bcert" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Level:</label>
+                    <select required>
+                        <option value="">Select Level</option>
+                        <option value="1">P 1</option>
+                        <option value="2">P 2</option>
+                        <option value="3">P 3</option>
+                        <option value="4">P 4</option>
+                        <option value="5">P 5</option>
+                        <option value="6">P 6</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Parent/Guardian Name:</label>
+                    <input type="text" name="parentName" required>
+                </div>
+                <div class="form-group">
+                    <label>Relationship with child:</label>
+                    <select required>
+                        <option value="">Select Relationship</option>
+                        <option>Mother</option>
+                        <option>Father</option>
+                        <option>Legal parent</option>
+                        <option>Sibling</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label >Email:</label>
+                    <input type="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Phone Number:</label>
+                    <input type="tel" name="phone" required>
+                </div>
+
+                <button type="submit">Register</button>
+            </form>
+    </div>
+</div>
+</body>
+</html>
